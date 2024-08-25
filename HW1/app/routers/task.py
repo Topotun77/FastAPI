@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from HW1.app.schemas import CreateTask
+from schemas import CreateTask
 
 router_task = APIRouter(prefix='/task', tags=['task'])
 
