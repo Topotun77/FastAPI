@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from schemas import CreateUser
+from HW1.app.schemas import CreateUser
 
 router_user = APIRouter(prefix='/user', tags=['user'])
 
