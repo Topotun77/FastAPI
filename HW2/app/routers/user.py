@@ -1,4 +1,5 @@
 from fastapi import APIRouter
+from schemas import CreateUser
 
 router_user = APIRouter(prefix='/user', tags=['user'])
 

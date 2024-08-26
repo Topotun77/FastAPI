@@ -1,4 +1,5 @@
 from fastapi import APIRouter
+from schemas import CreateTask
 
 router_task = APIRouter(prefix='/task', tags=['task'])
 
